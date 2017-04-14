@@ -1,26 +1,500 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<meta charset="UTF-8">
-	<title>@adenece - 42</title>
-	<link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-	<style>
-	body
-	{
-		background-color: #666699;
-	}
-	h1
-	{
-	font: 400 60px/1.3 'Lobster Two', Helvetica, sans-serif;
-	color: #2b2b2b;
-	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
-	color: #e0e0eb;
-	text-align: center;
-	}
-	</style>
-<link rel="icon" href="favicon.ico" />
+
+	<!--- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Aliénor Denécé - School 42 student</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	 ================================================== -->
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Script
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" >
+
 </head>
+
 <body>
-	<h1>Aliénor Denécé, school 42 student</h1>
+
+	<!-- Header
+	================================================== -->
+	<header id="home">
+
+		<nav id="nav-wrap">
+
+			<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+			<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+			<ul id="nav" class="nav">
+				<li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+				<li><a class="smoothscroll" href="#about">About</a></li>
+				<li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+				<li><a class="smoothscroll" href="#resume">Resume</a></li>
+			</ul> <!-- end #nav -->
+
+		</nav> <!-- end #nav-wrap -->
+
+		<div class="row banner">
+			<div class="banner-text">
+				<h1 class="responsive-headline">Aliénor Denécé</h1>
+				<h3>Student<span> at <a href="http://en.wikipedia.org/wiki/42_%28school%29" target="_blank">School 42</a> in Paris, France</span>
+				<ul class="social">
+					<li><a href="mailto:alienor.denece@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+					<li><a href="https://github.com/alienosaurus"><i class="fa fa-github"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<p class="scrolldown">
+			<a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+		</p>
+
+	</header> <!-- Header End -->
+
+
+	<!-- About Section
+	================================================== -->
+	<section id="about">
+
+		<div class="row">
+
+			<div class="three columns">
+
+				<img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+			</div>
+
+			<div class="nine columns main-col">
+
+				<h2>About</h2>
+
+				<p>
+					I'm currently a student at <a href="http://en.wikipedia.org/wiki/42_%28school%29" target="_blank">School 42</a> in Paris, France. This very special school aims to promote peer-to-peer learning, independance and adaptabilty. Since the beginning I've been really interested in object oriented and infography projects as well as the internet of things. Creating playful things is really important to me. I'm also deeply interested in serious gaming amd combining both health care and tech since I also used to study neuropsychology for three years at Paris V Descartes University. Helping curing mental disorders or physical illnesses with tech is one of my main goals as a developer.
+				</p>
+
+				<div class="row">
+
+					<div class="columns contact-details">
+
+						<h2>Contact</h2>
+						<p class="address">
+							<span>Aliénor Denécé</span><br>
+							<span><a href="mailto:alienor.denece@gmail.com">alienor.denece@gmail.com</a></span>
+						</p>
+
+					</div>
+
+					<div class="columns download">
+						<p>
+							<a href="/CV_Aliénor_DENECE.pdf" class="button"><i class="fa fa-download"></i>Download resume</a>
+						</p>
+					</div>
+				</div> <!-- end row -->
+
+			</div> <!-- end .main-col -->
+
+		</div>
+
+	</section> <!-- About Section End-->
+
+	<!-- Portfolio Section
+	================================================== -->
+	<section id="portfolio">
+
+		<div class="row">
+
+			<div class="twelve columns collapsed">
+
+				<h1>A few of my projects</h1>
+
+				<!-- portfolio-wrapper -->
+				<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-01" title="">
+								<img alt="" src="images/portfolio/minishell.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Minishell</h5>
+										<p>C<br>Unix<br>API<br>AST</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-02" title="">
+								<img alt="" src="images/portfolio/Fdf.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Fdf</h5>
+										<p>C<br>Algorithm<br>Infography</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-03" title="">
+								<img alt="" src="images/portfolio/Fract_ol.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Fract_ol</h5>
+										<p>C<br>Algorithm<br>Infography</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-04" title="">
+								<img alt="" src="images/portfolio/Wolf3D.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Wolf3D</h5>
+										<p>C<br>Algorithm<br>Infography</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-05" title="">
+								<img alt="" src="images/portfolio/RT.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Raytracer</h5>
+										<p>C<br>SDL2<br>OpenCL<br>Algorithm<br>Infography<br>Group & Interpersonal</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+						</div>
+					</div> <!-- item end -->
+
+				</div> <!-- portfolio-wrapper end -->
+
+			</div> <!-- twelve columns end -->
+
+
+			<!-- Modal Popup -->
+
+			<div id="modal-01" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" width="100%" src="images/portfolio/modals/m-minishell.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>Minishell</h4>
+					<p>This project aims to create a simple shell and discover the API. This shell must be a command line interpreter and compiler.</p>
+					<span class="categories"><i class="fa fa-tag"></i>Unix, API, AST</span>
+				</div>
+
+				<div class="link-box">
+					<a href="https://github.com/Alienosaurus/minishell"><i class="fa fa-link"></i>
+Link to Github</a>
+				</div>
+
+			</div><!-- modal-01 End -->
+
+			<div id="modal-02" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" width="100%" src="images/portfolio/modals/m-Fdf.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>Fdf</h4>
+					<p>This projects aims to create infographically a schematic representation of an embossed map by linking three different points (x, y, z) with straight lines. The coordinates of the map are stocked into a file just like this one:
+					<pre style="font-size:11px;line-height:14px;">
+$>cat 42.fdf
+0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+0  0 10 10  0  0 10 10  0  0  0 10 10 10 10 10  0  0  0
+0  0 10 10  0  0 10 10  0  0  0  0  0  0  0 10 10  0  0
+0  0 10 10  0  0 10 10  0  0  0  0  0  0  0 10 10  0  0
+0  0 10 10 10 10 10 10  0  0  0  0 10 10 10 10  0  0  0
+0  0  0 10 10 10 10 10  0  0  0 10 10  0  0  0  0  0  0
+0  0  0  0  0  0 10 10  0  0  0 10 10  0  0  0  0  0  0
+0  0  0  0  0  0 10 10  0  0  0 10 10 10 10 10 10  0  0
+0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+$>
+</pre>
+Each number corresponds to a point :
+<br>
+- the horizontal position corresponds to the abscissa<br>
+- the vertical position  corresponds to its ordinate<br>
+- the value corresponds to its altitude.
+</p>
+					<span class="categories"><i class="fa fa-tag"></i>C, Algorithm, Infography</span>
+				</div>
+
+				<div class="link-box">
+					<a href="https://github.com/Alienosaurus/fdf"><i class="fa fa-link"></i>
+Link to GitHub</a>
+				</div>
+
+			</div><!-- modal-02 End -->
+
+			<div id="modal-03" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" width="100%" src="images/portfolio/modals/m-Fract_ol.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>Fract_ol</h4>
+					<p>Creating infographically pretty fractals.</p>
+					<span class="categories"><i class="fa fa-tag"></i>C, Algorithm, Infography</span>
+				</div>
+
+				<div class="link-box">
+					<a href="https://github.com/Alienosaurus/fract_ol"><i class="fa fa-link"></i>
+Link to Github</a>
+				</div>
+
+			</div><!-- modal-03 End -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" width="100%" src="images/portfolio/modals/m-Wolf3D.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>Wolf3D</h4>
+					<p>Inspired by the famous first First Person Shooter game from the 90s Wolfenstein 3D, this project is about recreating a 3D labyrinth with the raycasting technique, in which one can move.</p>
+					<span class="categories"><i class="fa fa-tag"></i>C, Algorithm, Infography</span>
+				</div>
+
+				<div class="link-box">
+					<a href="https://github.com/Alienosaurus/Wolf_3D"><i class="fa fa-link"></i>
+Link to GitHub</a>
+				</div>
+
+			</div><!-- modal-04 End -->
+
+			<div id="modal-05" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" width="100%" src="images/portfolio/modals/m-RT.jpg" alt="" />
+
+				<div class="description-box">
+					<h4>RT</h4>
+					<p>Create amazing computer graphic images with a raytracer made from scratch and inspired by Pixar's Renderman.</p>
+					<span class="categories"><i class="fa fa-tag"></i>C, SDL2, OpenCL, Algorithm, Infography, Group & Interpersonal</span>
+				</div>
+
+				<div class="link-box">
+					<a href="https://github.com/Alienosaurus/RT"><i class="fa fa-link"></i>
+Link to Github</a>
+				</div>
+
+			</div><!-- modal-05 End -->
+
+		</div> <!-- row End -->
+
+	</section> <!-- Portfolio Section End-->
+
+
+	<!-- Call-To-Action Section
+	================================================== -->
+	<section id="call-to-action">
+
+		<div class="row">
+
+			<div class="two columns header-col">
+
+				<h1><span>Have a look at my school projects.</span></h1>
+
+			</div>
+
+			<div class="seven columns">
+
+				<h2><a href="https://github.com/Alienosaurus">Have a look at my school projects.</a></h2>
+				<p>A glimpse of my most important School 42 projects</p>
+
+			</div>
+
+			<div class="three columns action">
+
+				<a href="https://github.com/Alienosaurus" class="button">My GitHub</a>
+
+			</div>
+
+		</div>
+
+	</section> <!-- Call-To-Action Section End-->
+
+	<!-- Resume Section
+	================================================== -->
+	<section id="resume">
+
+		<!-- Education -->
+		<div class="row education">
+
+			<div class="three columns header-col">
+				<h1><span>Education</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+
+				<div class="row item">
+
+					<div class="twelve columns">
+
+						<h3>School 42</h3>
+						<p class="info">Certificate of digital technologies architect<span>&bull;</span> <em class="date">October 2015</em></p>
+
+						<p>
+					  • Algorithms, Infographics, Shell, Networks basics, C, Communication.<br><br>42 is a private french computing school created by Xavier Niel.<br> The tuition is inspired by the changes Internet brought, combined with a peer-to-peer pedagogy. The diploma it delivers isn't recognized by the Republic of France, but bets on the advanced programming skills of its students as well as their capacity to innovate and their ability to see things and think differently.<br>
+I'm a member of The Tutors, who create and supervise partnerships with other schools such as HEC.<br>
+I'm also a member of Code[HER] which promotes gender diversity in the Tech ecosystem.
+						</p>
+
+						<h3>Paris V Descartes University</h3>
+						<p class="info">Degree in psychology, specialty neuropsychology<span>&bull;</span> <em class="date">2012 - 2015</em></p>
+						<p>
+					The University Paris V Descartes belongs to academic alliance of the Sorbonne and is one of the best and most pretigious French universities, mainly in the areas of medical sciences, biomedical sciences and psychology. This university supports a modern approach of social sciences on the basis of fieldwork, participant observation and ethnography.
+						</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Education -->
+
+
+		<!-- Skills -->
+		<div class="row skill">
+
+			<div class="three columns header-col">
+				<h1><span>Skills</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+
+				<div class="bars">
+
+					<!-- <ul class="skills"> -->
+					<h4>Acquired skills</h4>
+
+					<p id="watching-list">
+						<span class="watching">C</span>
+						<span class="watching">SDL2</span>
+						<span class="watching">HTML</span>
+						<span class="watching">CSS</span>
+						<span class="watching">Unix</span>
+						<span class="watching">English</span>
+						<span class="watching">French</span>
+						<span class="watching">German</span>
+						<span class="watching">Chinese (mandarin)</span>
+						<span class="watching">Github</span>
+					</p>
+					<!--
+						<li><span class="bar-expand C language"></span><em>C language</em></li>
+						<li><span class="bar-expand SDL2"></span><em>SDL2</em></li>
+						<li><span class="bar-expand HTML"></span><em>HTML</em></li>
+						<li><span class="bar-expand CSS"></span><em>CSS</em></li>
+						<li><span class="bar-expand Unix"></span><em>Unix</em></li>
+						<li><span class="bar-expand English"></span><em>English</em></li>
+						<li><span class="bar-expand French"></span><em>French</em></li>
+						<li><span class="bar-expand German"></span><em>German</em></li>
+						<li><span class="bar-expand Chinese (mandarin)"></span><em>Chinese (mandarin)</em></li>
+						<li><span class="bar-expand github"></span><em>GitHub</em></li>
+					-->
+					<!-- </ul> -->
+
+					<h4>Learning</h4>
+
+					<p id="watching-list">
+						<span class="watching">C++</span>
+						<span class="watching">Python</span>
+						<span class="watching">Unity</span>
+					</p>
+
+				</div><!-- end skill-bars -->
+
+				<p>I'm always looking forward to learn and masterise any new language, especially oriented object ones. The internet of things, serious gaming, computer animation and special effects are my main interests and I'm looking forward to work and coming into bloom in these fields. I'm looking forward to work in a creative and innovative company where I'll be able to face challenges and learn new technologies.</p>
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End skills -->
+
+	</section> <!-- Resume Section End-->
+
+	<!-- footer
+	================================================== -->
+	<footer>
+
+		<div class="row">
+
+			<div class="twelve columns">
+
+				<ul class="social-links">
+					<li><a href="mailto:alienor.denece@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+					<li><a href="https://github.com/alienosaurus"><i class="fa fa-github"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+		</div>
+
+	</footer> <!-- Footer End-->
+
+	<!-- Java Script
+	================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/waypoints.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/init.js"></script>
+
 </body>
+
 </html>
